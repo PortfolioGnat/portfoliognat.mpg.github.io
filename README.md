@@ -9,41 +9,27 @@ This dataset contains a subset of the fuel economy data that the EPA makes avail
 # Usage:
 mpg
 
-Format
-A data frame with 234 rows and 11 variables:
+1. manufacturer = manufacturer name
 
-manufacturer
-manufacturer name
+2. model = model name
 
-model
-model name
+3. displ = engine displacement, in litres
 
-displ
-engine displacement, in litres
+4. year = year of manufacture
 
-year
-year of manufacture
+5. cyl = number of cylinders
 
-cyl
-number of cylinders
+6. trans = type of transmission
 
-trans
-type of transmission
+7. drv = the type of drive train; where f = front-wheel drive, r = rear wheel drive, 4 = 4wd
 
-drv
-the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd
+8. cty = city miles per gallon
 
-cty
-city miles per gallon
+9. hwy = highway miles per gallon
 
-hwy
-highway miles per gallon
+10. fl = fuel type
 
-fl
-fuel type
-
-class
-"type" of car
+11. class = "type" of car
 
 # **Visualization 1: MPG Example**
 ![Visualization 1](/mpg_example.png)
