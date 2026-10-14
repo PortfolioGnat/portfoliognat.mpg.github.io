@@ -67,10 +67,10 @@ mplot(mpg)
 Selection: 2
 > I chose the second value to produce a scatterplot
 
-> Once I enter the desired values in the "Manipulate" popup using the gear icon, the expression of the visualization is as follows:
-gf_point(hwy ~ displ, data = mpg) |>
-  gf_facet_wrap(~ class, ncol = 4) |> 
-  gf_labs(title = "", caption = "")
+Once I enter the desired values in the "Manipulate" popup using the gear icon, the expression of the visualization is as follows:
+> gf_point(hwy ~ displ, data = mpg) |>
+>  gf_facet_wrap(~ class, ncol = 4) |> 
+>  gf_labs(title = "", caption = "")
 
 
 
