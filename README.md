@@ -75,7 +75,7 @@ Once I enter the desired values in the "Manipulate" pop-up using the gear icon, 
 
 
 # **Visualization 2: MPG Legibility**
-![Visualization 2](/legibility.png)
+![Visualization 2](/mpg_legibility.png)
 
 ## The visualization above shows how many miles per gallon a vehicle gets on the highway in relation to its class.
 
