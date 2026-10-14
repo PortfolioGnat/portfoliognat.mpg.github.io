@@ -46,7 +46,25 @@ This visualization shows how to display information in a digestible, self-explan
 
 4. The data has also not been properly labeled, and I had to execute code in GitHub in order for the visualization to receive a header.
 
-## Great for a starter visualization, but there are many elements that could ultimately be improved upon.
+### Great for a starter visualization, but there are many elements that could ultimately be improved upon.
+
+## RStudio Code for MPG Example:
+
+data(mpg, package='ggplot2')
+> This loads the dataset as a package
+help(mpg)
+> Displays the definitions of the abbreviations used in the columns of the dataset so that I could copy and paste said information.
+mplot(mpg)
+> Runs through dataset and asks how you would like the information to be displayed as shown:
+1: 1-variable (histogram, density plot, etc.)
+2: 2-variable (scatter, boxplot, etc.)
+> Select one by entering a value for what visualization you would like to create.
+Selection: 2
+> I chose the second value to produce a scatterplot
+> Once I enter the desired values in the "Manipulate" popup using the gear icon, the expression of the visualization is as follows:
+gf_point(hwy ~ displ, data = mpg) |>
+  gf_facet_wrap(~ class, ncol = 4) |> 
+  gf_labs(title = "", caption = "")
 
 
 
