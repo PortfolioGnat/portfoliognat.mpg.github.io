@@ -1,6 +1,7 @@
 # Miles Per Gallon Dataset
 
-Below you will find different examples of visualizations that pull from a dataset called MPG. The different categories within MPG are as follows:
+Below you will find different examples of visualizations that pull from a dataset called MPG.\
+The different categories within MPG are as follows:\
 Fuel economy data from 1999 to 2008 for 38 popular models of cars
 
 # Description:
@@ -59,7 +60,7 @@ help(mpg)
 mplot(mpg)
 > Runs through dataset and asks how you would like the information to be displayed as shown:
 
-1: 1-variable (histogram, density plot, etc.)
+1: 1-variable (histogram, density plot, etc.)\
 2: 2-variable (scatter, boxplot, etc.)
 > Select one by entering a value for what visualization you would like to create.
 
