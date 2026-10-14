@@ -33,6 +33,20 @@ mpg
 
 # **Visualization 1: MPG Example**
 ![Visualization 1](/mpg_example.png)
-## This is an example of how many miles per gallon certain bodies of vehicle get in correlation to how many cylinders the vehicles have (This was used as practice for loading and posting images to README)
+
+## The image shows how many miles per gallon a vehicle gets on the highway in relation to its engine displacement.
+
+This visualization shows how to display information in a digestible, self-explanatory image. The aforementioned image was also used as practice for loading, posting, and captioning images to README via GitHub repositories.
+
+## Notes/Commentary:
+
+1. The image does a great job of showing the correlation between the hwy mpg (highway miles per gallon) and the displ (engine displacement in liters).
+
+2. The issue with this image is that it has not been properly defined for potential viewers who may not know the abbreviations for the values on both the x and y axes. It could have used the full definitions of the abbreviations where the axes are labeled, so it would be less confusing/irradicate the need for a guide or reference to the help(mpg) data.
+
+4. The data has also not been properly labeled, and I had to execute code in GitHub in order for the visualization to receive a header.
+
+## All in all, it's not bad, but it can definitely use some work! 
+
 # **Visualization 2: MPG Legibility**
 ![Visualization 2](/legibility.png)
