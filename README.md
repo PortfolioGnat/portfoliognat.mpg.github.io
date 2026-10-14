@@ -34,19 +34,39 @@ mpg
 # **Visualization 1: MPG Example**
 ![Visualization 1](/mpg_example.png)
 
-## The image shows how many miles per gallon a vehicle gets on the highway in relation to its engine displacement.
+## The image shows how many miles per gallon a vehicle gets on the highway in relation to its engine displacement. Here it has also been divided into different facets, categorized by class.
 
 This visualization shows how to display information in a digestible, self-explanatory image. The aforementioned image was also used as practice for loading, posting, and captioning images to README via GitHub repositories.
 
 ## Notes/Commentary:
 
-1. The image does a great job of showing the correlation between the hwy mpg (highway miles per gallon) and the displ (engine displacement in liters).
+1. The image does a great job of showing the correlation between the hwy (highway miles per gallon) and the displ (engine displacement in liters).
 
 2. The issue with this image is that it has not been properly defined for potential viewers who may not know the abbreviations for the values on both the x and y axes. It could have used the full definitions of the abbreviations where the axes are labeled, so it would be less confusing/irradicate the need for a guide or reference to the help(mpg) data.
 
 4. The data has also not been properly labeled, and I had to execute code in GitHub in order for the visualization to receive a header.
 
-## All in all, it's not bad, but it can definitely use some work! 
+## Great for a starter visualization, but there are many elements that could ultimately be improved upon.
+
+
 
 # **Visualization 2: MPG Legibility**
 ![Visualization 2](/legibility.png)
+
+## The visualization above shows how many miles per gallon a vehicle gets on the highway in relation to its class.
+
+This visualization was used to explore how color affects the legibility of information displayed. Key factors considered when creating this image included potential viewers with different types of color blindness. Here, the 3:1 color contrast ratio was utilized to help mitigate difficulties in perception of the data. This was done by utilizing colors that are far enough away from one another that those with impaired vision may see them without needing to change the color scale or scheme.
+
+## Notes/Commentary:
+
+1. The visualization utilizes a good color contrast ratio for those with impaired vision, while also giving a complementary and easy-to-look-at color scheme for those without vision impairment(s).
+
+2. The image does a great job of showing the correlation between the hwy (highway miles per gallon) and the class (Type of car) and how those values directly correlate with one another. Using boxplots, you are able to see the groupings of vehicles that lie within normal distances per class, as well as the outliers.
+
+3. Similar to the first visualization, the issue with this image is that it has not been properly defined for potential viewers who may not know the abbreviations for the values on both the x and y axes. It could have used the full definitions of the abbreviations where the axes are labeled, so it would be less confusing/irradicate the need for a guide or reference to the help(mpg) data.
+
+4. Another improvement to note is that the outliers could have had sizing adjustments so that, beyond color impairments, visual impairments for viewers who may not be able to see the outliers may be accommodated as well. 
+
+5. Once again, the data has also not been properly labeled, and I had to execute code in GitHub in order for the visualization to receive a header.
+
+## There have been several notable improvements in this example compared to the image prior to this one.
