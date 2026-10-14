@@ -32,7 +32,7 @@ mpg
 11. class = "type" of car
 
 # **Visualization 1: MPG Example**
-![Visualization 1](/mpg_example.png)
+![Visualization 1]()
 
 ## The image shows how many miles per gallon a vehicle gets on the highway in relation to its engine displacement. Here it has also been divided into different facets, categorized by class.
 
