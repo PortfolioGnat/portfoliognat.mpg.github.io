@@ -102,4 +102,4 @@ geom_boxplot(outlier.color = "yellow", fill = "blue", color = "dark blue", outli
 > This is the original code with the original colors. They are as follows;\
 Outlier points = Yellow\
 Box Plot Fill = Blue\
-Box Plot Outline = Dark Blue\
+Box Plot Outline = Dark Blue
